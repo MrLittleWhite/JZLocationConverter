@@ -50,25 +50,11 @@
     return ret;
 }
 
-+ (BOOL)outOfChina:(double)lat bdLon:(double)lon
-{
-    if (lon < RANGE_LON_MIN || lon > RANGE_LON_MAX)
-        return true;
-    if (lat < RANGE_LAT_MIN || lat > RANGE_LAT_MAX)
-        return true;
-    return false;
-}
-
 + (CLLocationCoordinate2D)gcj02Encrypt:(double)ggLat bdLon:(double)ggLon
 {
     CLLocationCoordinate2D resPoint;
     double mgLat;
     double mgLon;
-    if ([self outOfChina:ggLat bdLon:ggLon]) {
-        resPoint.latitude = ggLat;
-        resPoint.longitude = ggLon;
-        return resPoint;
-    }
     double dLat = [self transformLat:(ggLon - 105.0)bdLon:(ggLat - 35.0)];
     double dLon = [self transformLon:(ggLon - 105.0) bdLon:(ggLat - 35.0)];
     double radLat = ggLat / 180.0 * M_PI;
