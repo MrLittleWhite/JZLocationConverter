@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
     :git => 'https://github.com/qzs21/JZLocationConverter.git',
     :tag => s.version
   }
-  s.source_files = 'JZLocationConverter/*.{h,m}'
+  s.source_files = 'JZLocationConverter/*.{h,m,swift}'
   s.requires_arc = true
-  s.ios.deployment_target = '6.0'
+  s.ios.deployment_target = '11.0'
+  s.swift_version = '5.0'
 end

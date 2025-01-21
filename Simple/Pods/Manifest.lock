@@ -1,14 +1,16 @@
 PODS:
-  - JZLocationConverter
+  - JZLocationConverter (1.0.0)
 
 DEPENDENCIES:
   - JZLocationConverter (from `../`)
 
 EXTERNAL SOURCES:
   JZLocationConverter:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  JZLocationConverter: df64537177bbde81f504db3d6ac137419fc50060
+  JZLocationConverter: 4cdacee930202b1ae95136a3a43fb2cb92dcd2ee
 
-COCOAPODS: 0.36.3
+PODFILE CHECKSUM: 1e570dfddb124dbf79f947e499b5ca3f0bf6695e
+
+COCOAPODS: 1.15.2

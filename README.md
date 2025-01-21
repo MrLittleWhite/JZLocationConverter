@@ -27,3 +27,14 @@ WGS-84世界标准坐标、GCJ-02中国国测局(火星坐标)、BD-09百度坐�
 ## BD-09     -> GCJ-02
 ### 此接口有1-2米左右的误差，需要精确的场景慎用
     + (CLLocationCoordinate2D)bd09ToGcj02:(CLLocationCoordinate2D)location;
+    
+### ⚠️`新增一下接口`
+## 判断坐标是否在台湾
+    @objc
+    static func isInTaiWan(_ location: CLLocationCoordinate2D) -> Bool
+## 判断坐标是否在香港
+    @objc
+    static func isInHongKong(_ location: CLLocationCoordinate2D) -> Bool
+## 判断坐标是否在澳门
+    @objc
+    static func isInMacao(_ location: CLLocationCoordinate2D) -> Bool

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		531C4CF8CFD58BDEA244073C /* Pods_JZConverterDome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A514178B5EA167E4960DC653 /* Pods_JZConverterDome.framework */; };
 		B80704FD17C61FE100429AAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80704FC17C61FE100429AAA /* UIKit.framework */; };
 		B80704FF17C61FE100429AAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80704FE17C61FE100429AAA /* Foundation.framework */; };
 		B807050117C61FE100429AAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B807050017C61FE100429AAA /* CoreGraphics.framework */; };
@@ -19,13 +20,12 @@
 		B807051617C61FE100429AAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B807051517C61FE100429AAA /* ViewController.m */; };
 		B807051917C61FE100429AAA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B807051717C61FE100429AAA /* ViewController.xib */; };
 		B8D9761717C648E7007FCB75 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D9761617C648E7007FCB75 /* CoreLocation.framework */; };
-		E8E23B0093B17D278F3D5CB2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57141FD16D70DC223E9ABC4D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		57141FD16D70DC223E9ABC4D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		90C068D7749A26D59A38F6E4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		AA69AAB58E56146A4D52C868 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		120F24A13079A95680A8149B /* Pods-JZConverterDome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZConverterDome.release.xcconfig"; path = "Target Support Files/Pods-JZConverterDome/Pods-JZConverterDome.release.xcconfig"; sourceTree = "<group>"; };
+		9E67A638EC8B0318CD3F3A71 /* Pods-JZConverterDome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZConverterDome.debug.xcconfig"; path = "Target Support Files/Pods-JZConverterDome/Pods-JZConverterDome.debug.xcconfig"; sourceTree = "<group>"; };
+		A514178B5EA167E4960DC653 /* Pods_JZConverterDome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JZConverterDome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B80704F917C61FE100429AAA /* JZConverterDome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZConverterDome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B80704FC17C61FE100429AAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B80704FE17C61FE100429AAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,20 +54,20 @@
 				B80704FD17C61FE100429AAA /* UIKit.framework in Frameworks */,
 				B80704FF17C61FE100429AAA /* Foundation.framework in Frameworks */,
 				B807050117C61FE100429AAA /* CoreGraphics.framework in Frameworks */,
-				E8E23B0093B17D278F3D5CB2 /* libPods.a in Frameworks */,
+				531C4CF8CFD58BDEA244073C /* Pods_JZConverterDome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B92B322D1645A3E94206604 /* Pods */ = {
+		0BB8E05FB93A21FEAA7BF5F8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				90C068D7749A26D59A38F6E4 /* Pods.debug.xcconfig */,
-				AA69AAB58E56146A4D52C868 /* Pods.release.xcconfig */,
+				9E67A638EC8B0318CD3F3A71 /* Pods-JZConverterDome.debug.xcconfig */,
+				120F24A13079A95680A8149B /* Pods-JZConverterDome.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		B80704F017C61FE100429AAA = {
@@ -76,7 +76,7 @@
 				B807050217C61FE100429AAA /* JZConverterDome */,
 				B80704FB17C61FE100429AAA /* Frameworks */,
 				B80704FA17C61FE100429AAA /* Products */,
-				2B92B322D1645A3E94206604 /* Pods */,
+				0BB8E05FB93A21FEAA7BF5F8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +95,7 @@
 				B80704FC17C61FE100429AAA /* UIKit.framework */,
 				B80704FE17C61FE100429AAA /* Foundation.framework */,
 				B807050017C61FE100429AAA /* CoreGraphics.framework */,
-				57141FD16D70DC223E9ABC4D /* libPods.a */,
+				A514178B5EA167E4960DC653 /* Pods_JZConverterDome.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,11 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B807051C17C61FE100429AAA /* Build configuration list for PBXNativeTarget "JZConverterDome" */;
 			buildPhases = (
-				359E6B933615868780092BF1 /* Check Pods Manifest.lock */,
+				51324E5F2D6B644C97FAF2A4 /* [CP] Check Pods Manifest.lock */,
 				B80704F517C61FE100429AAA /* Sources */,
 				B80704F617C61FE100429AAA /* Frameworks */,
 				B80704F717C61FE100429AAA /* Resources */,
-				687FBD95ABB0721ABE1133A5 /* Copy Pods Resources */,
+				E72599BEB3D163C2F4D187A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +163,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = B80704F017C61FE100429AAA;
@@ -191,34 +192,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		359E6B933615868780092BF1 /* Check Pods Manifest.lock */ = {
+		51324E5F2D6B644C97FAF2A4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JZConverterDome-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		687FBD95ABB0721ABE1133A5 /* Copy Pods Resources */ = {
+		E72599BEB3D163C2F4D187A9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JZConverterDome/Pods-JZConverterDome-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JZLocationConverter/JZLocationConverter.framework",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JZLocationConverter.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JZConverterDome/Pods-JZConverterDome-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -314,11 +325,13 @@
 		};
 		B807051D17C61FE100429AAA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90C068D7749A26D59A38F6E4 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 9E67A638EC8B0318CD3F3A71 /* Pods-JZConverterDome.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JZConverterDome/JZConverterDome-Prefix.pch";
 				INFOPLIST_FILE = "JZConverterDome/JZConverterDome-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -326,11 +339,13 @@
 		};
 		B807051E17C61FE100429AAA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA69AAB58E56146A4D52C868 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 120F24A13079A95680A8149B /* Pods-JZConverterDome.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JZConverterDome/JZConverterDome-Prefix.pch";
 				INFOPLIST_FILE = "JZConverterDome/JZConverterDome-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
